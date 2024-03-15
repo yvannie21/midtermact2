@@ -1,0 +1,33 @@
+body {
+  font-family: Century Gothic;
+  font-size: 14px;
+  color: white;
+  background-image: url('purple.gif'); /* Specify the path to your GIF file */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  text-align: center; /* Center text horizontally */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add text shadow with increased effect */
+}
+
+.college {
+  font-weight: bold;
+  margin: 20px 0 10px; /* Adjust vertical margins */
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+}
+
+li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+ul, ol {
+  text-align: center;
+}
